@@ -25,6 +25,7 @@
 	qcom,chg-term-current-ma = <(-200)>;
 	qcom,sw-jeita-enable;
 	qcom,sec-charger-config = <0>;
+	google,usb-port-tz-name = "usbc-therm-adc";
 	qcom,auto-recharge-soc = <99>;
 	qcom,flash-disable-soc = <0>;
 	qcom,thermal-mitigation = <3000000 2500000 2000000

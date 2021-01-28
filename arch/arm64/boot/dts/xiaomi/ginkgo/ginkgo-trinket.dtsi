@@ -38,4 +38,14 @@
     restart@440b000 {
         qcom,force-warm-reboot;
     };
+
+	google_overheat_mitigation: google,overheat_mitigation {
+		compatible = "google,overheat_mitigation";
+		google,port-overheat-work-interval = <2000>;
+		/* Must maintain < 1/15 duty cycle */
+		google,polling-freq = <3>;
+		#cooling-cells = <2>;
+		google,begin-mitigation-temp = <550>;
+		google,end-mitigation-temp = <400>;
+	};
 };
