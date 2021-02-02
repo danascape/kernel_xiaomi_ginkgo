@@ -28,8 +28,8 @@
 	google,usb-port-tz-name = "usbc-therm-adc";
 	qcom,auto-recharge-soc = <99>;
 	qcom,flash-disable-soc = <0>;
-	qcom,thermal-mitigation = <3000000 2500000 2000000
-			2000000 1500000 900000 800000 500000 100000>;
+	qcom,thermal-mitigation = <5100000 4000000 3500000 3000000
+				   2500000 1500000 1000000 500000>;
 };
 
 &smb1355 {
